@@ -8,6 +8,7 @@ on:
     branches: [ '*' ]
   workflow_dispatch:
 
+
 jobs:
   test-docs:
     name: Modern Browsers Test
