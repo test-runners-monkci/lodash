@@ -11,7 +11,7 @@ on:
 jobs:
   test-docs:
     name: Modern Browsers Test
-    runs-on: [self-hosted, 5000-iops]
+    runs-on: [self-hosted, 6500-iops]
 
     steps:
       - uses: actions/checkout@v4
